@@ -1,0 +1,2 @@
+/usr/bin/ar qc librobot_core.a CMakeFiles/robot_core.dir/src/dm_motor.cpp.o CMakeFiles/robot_core.dir/src/unitree_motor.cpp.o CMakeFiles/robot_core.dir/src/robot.cpp.o
+/usr/bin/ranlib librobot_core.a

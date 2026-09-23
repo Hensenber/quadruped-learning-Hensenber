@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/robot_demo.dir/apps/main.cpp.o -o robot_demo  librobot_core.a 

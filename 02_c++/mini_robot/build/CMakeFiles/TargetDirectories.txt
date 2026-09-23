@@ -1,0 +1,4 @@
+/home/hensenber/robocon/learn/02_c++/mini_robot/build/CMakeFiles/robot_core.dir
+/home/hensenber/robocon/learn/02_c++/mini_robot/build/CMakeFiles/robot_demo.dir
+/home/hensenber/robocon/learn/02_c++/mini_robot/build/CMakeFiles/edit_cache.dir
+/home/hensenber/robocon/learn/02_c++/mini_robot/build/CMakeFiles/rebuild_cache.dir
