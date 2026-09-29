@@ -1,0 +1,51 @@
+[1mdiff --git a/04_git/git_learning.md b/04_git/git_learning.md[m
+[1mindex 802d57e..d647ecf 100644[m
+[1m--- a/04_git/git_learning.md[m
+[1m+++ b/04_git/git_learning.md[m
+[36m@@ -259,4 +259,43 @@[m [mreset --hard：撤销commit，并删除工作区修改信息           #风险[m
+ 查看 GitHub 地址	        git remote -v[m
+ 获取远程信息	             git fetch[m
+ 获取并整合更新	             git pull[m
+[31m-上传提交	                git push[m
+\ No newline at end of file[m
+[32m+[m[32m上传提交	                git push[m
+[32m+[m
+[32m+[m[32m流程图：[m
+[32m+[m[32m                 你正在编辑文件[m
+[32m+[m[32m                       │[m
+[32m+[m[32m                       ▼[m
+[32m+[m[32m                ┌────────────┐[m
+[32m+[m[32m                │   工作区    │[m
+[32m+[m[32m                └─────┬──────┘[m
+[32m+[m[32m                      │[m
+[32m+[m[32m                   git add[m
+[32m+[m[32m                      │[m
+[32m+[m[32m                      ▼[m
+[32m+[m[32m                ┌────────────┐[m
+[32m+[m[32m                │   暂存区    │[m
+[32m+[m[32m                └─────┬──────┘[m
+[32m+[m[32m                      │[m
+[32m+[m[32m                  git commit[m
+[32m+[m[32m                      │[m
+[32m+[m[32m                      ▼[m
+[32m+[m[32m             ┌────────────────┐[m
+[32m+[m[32m             │    本地仓库     │[m
+[32m+[m[32m             │                │[m
+[32m+[m[32m             │ A ─ B ─ C      │[m
+[32m+[m[32m             │       ├─ D     │ ← branch[m
+[32m+[m[32m             │       └─ E     │[m
+[32m+[m[32m             └───────┬────────┘[m
+[32m+[m[32m                     │[m
+[32m+[m[32m                  git push[m
+[32m+[m[32m                     │[m
+[32m+[m[32m                     ▼[m
+[32m+[m[32m              ┌──────────────┐[m
+[32m+[m[32m              │    GitHub     │[m
+[32m+[m[32m              │   远程仓库    │[m
+[32m+[m[32m              └──────┬───────┘[m
+[32m+[m[32m                     │[m
+[32m+[m[32m               fetch / pull[m
+[32m+[m[32m                     │[m
+[32m+[m[32m                     ▼[m
+[32m+[m[32m                  本地仓库[m
+\ No newline at end of file[m
